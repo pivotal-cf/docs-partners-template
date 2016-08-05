@@ -12,10 +12,10 @@ For a good example of a partner service doc, see [ISS Knowtify Search Analytics]
 
 Partners use this template to develop the documentation for their PCF service. This repo currently includes templates for the following topics:
 
-* [index.html.md.erb](index.html.md.erb): The index of your docs.
-* [installing.html.md.erb](installing.html.md.erb): How to install and configure your product tile.
-* [using.html.md.erb](using.html.md.erb): How to use your product.
-* [release-notes.html.md.erb](release-notes.html.md.erb): Release notes for your product.
+* [index.html.md.erb](./docs-content/index.html.md.erb): The index of your docs.
+* [installing.html.md.erb](./docs-content/installing.html.md.erb): How to install and configure your product tile.
+* [using.html.md.erb](./docs-content/using.html.md.erb): How to use your product.
+* [release-notes.html.md.erb](./docs-content/release-notes.html.md.erb): Release notes for your product.
 
 To begin using this repo to develop your documentation, perform the following steps:
 
