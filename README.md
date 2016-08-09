@@ -41,7 +41,11 @@ To use Bookbinder to view your documentation, perform the following steps:
 
 ### <a id='zero-to-bookbinder'></a>Zero to Bookbinder: How to Install Bookbinder and Build, View, and Edit Your Docs from Nothing
 
-Note: All steps below are implicitly preceded with, "If you haven't already..."
+If you are reading this, Pivotal has invited you to a git repo where you can build and edit documentation in the Ruby / Markdown / HTML format that the online publishing tool [Bookbinder](https://github.com/pivotal-cf/bookbinder/blob/master/README.md) uses to build Pivotal's documentation.
+
+Here's how to install Bookbinder and build your docs from the repo, starting from scratch, on a Mac OS X machine.
+
+<p class="note"><strong>Note</strong>: All steps below are implicitly preceded with, "If you haven't already..." You should skip any installation steps that have already contributed to your environment.</p>
 
 #### Install Ruby
 
@@ -114,11 +118,11 @@ In Terminal window:
 
 1. Clone the docs template repo you will be building from.
 
-    `$ git clone git@github.com:pivotal-cf-experimental/docs-pcfservices-template`
+    `$ git clone git@github.com:pivotal-cf/docs-partners-template`
 
 1. `cd` into the `book` subdirectory of the repo.
 
-   `$ cd docs-pcfservices-template/pcfservices-book`
+   `$ cd docs-partners-template/docs-book`
 
 1. Run `bundle install` to install all book dependencies.
 
