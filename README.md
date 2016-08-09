@@ -130,8 +130,6 @@ In Terminal window:
 
 1. Browse to `localhost:4567` to view the book locally and "watch" any changes that you make to source `html.md.erb` files.
 
-![Loggregator Diagram](docs/loggregator.png)
-
 ![Partner Template landing page](docs-book/master_middleman/source/images/partner-template-landing.png)
 
 ![Partner Template service index page](docs-book/master_middleman/source/images/partner-template-service-index.png)
