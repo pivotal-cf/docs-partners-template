@@ -132,8 +132,14 @@ In Terminal window:
 
    `$ bookbinder watch`
 
-1. Browse to `localhost:4567` to view the book locally and "watch" any changes that you make to source `html.md.erb` files.
+1. Browse to `localhost:4567` to view the book locally and "watch" any changes that you make to source `html.md.erb` files. As you make and save changes to the local source files for your site, you will see them in your browser after a slight delay.
 
 ![Partner Template landing page](docs-book/master_middleman/source/images/partner-template-landing.png)
 
 ![Partner Template service index page](docs-book/master_middleman/source/images/partner-template-service-index.png)
+
+1. After each session of writing or revising your docs source files, commit and push them to your github repo.
+
+Happy documenting!
+
+
