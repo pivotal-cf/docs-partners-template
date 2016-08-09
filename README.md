@@ -38,3 +38,100 @@ To use Bookbinder to view your documentation, perform the following steps:
 1. Build your documentation site with `bookbinder` in one of the two following ways:
 	* Run `bookbinder watch` to build an interactive version of the docs and navigate to `localhost:4567/myservice/` in a browser. (It may take a moment for the site to load at first.) This builds a site from your content repo at `docs-content`, and then watches that repo to update the site if you make any changes to the repo.
 	* Run `bookbinder bind local` to build a Rack web-app of the book. After the bind has completed, `cd` into the `final_app` directory and run `rackup`. Then navigate to `localhost:9292/myservice/` in a browser.
+
+### <a id='zero-to-bookbinder'></a>Zero to Bookbinder: How to Install Bookbinder and Build, View, and Edit Your Docs from Nothing
+
+Note: All steps below are implicitly preceded with, "If you haven't already..."
+
+#### Install Ruby
+
+In Terminal window:
+
+1. Make and `cd` into a workspace directory.
+
+    `$ mkdir workspace`
+
+     `$ cd workspace`
+
+1. Follow the instructions at `http://brew.sh` to install brew / homebrew
+
+    `$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+
+1. Install your own (non-system) ruby.
+
+    `$ brew install ruby`
+
+#### Set up Git
+
+1. Download and Install git by following the instructions at [git-scm.com](https://git-scm.com/download/).
+
+1. Install your own (non-system) bash-completion (optional).
+
+    `$ brew install git bash-completion`
+
+1. If you don't already have one, generate a public/private RSA key pair, and save the key to your `~/.ssh` directory.
+    ```
+    $ ssh-keygen
+    Generating public/private rsa key pair.
+    Enter file in which to save the key (/Users/pspinrad/.ssh/id_rsa): 
+    ```
+
+1. Get a [Github](http://github.com) account.
+
+1. Add your RSA public key to your Github account / profile page.
+
+    `$ cat ~/.ssh/id_rsa.pub # copy and paste this into Github profile page as new key`
+
+#### Get the Correct Ruby Version
+
+1. Install a Ruby manager such as chruby.
+
+    `$ brew install chruby`
+
+1. Add your Ruby manager to your `~/.bashrc` by appending the following line:
+
+    `source /usr/local/opt/chruby/share/chruby/chruby.sh`
+
+1. Install the `ruby-install` installer.
+
+    `$ brew install ruby-install`
+
+1. Run `ruby-install` to install Ruby.
+
+    `$ ruby-install ruby 2.3`
+
+#### Install Bookbinder
+
+1. Install `bundler`.
+
+    `$ gem install bundler`
+
+1. Install bookbinder (the `bookbindery` gem).
+
+    `$ gem install bookbindery`
+
+#### Build the Docs Locally
+
+1. Clone the docs template repo you will be building from.
+
+    `$ git clone git@github.com:pivotal-cf-experimental/docs-pcfservices-template`
+
+1. `cd` into the `book` subdirectory of the repo.
+
+   `$ cd docs-pcfservices-template/pcfservices-book`
+
+1. Run `bundle install` to install all book dependencies.
+
+    `$ bundle install`
+
+1. Run `bookbinder watch` to build the book on your machine.
+
+   `$ bookbinder watch`
+
+1. Browse to `localhost:4567` to view the book locally and "watch" any changes that you make to source `html.md.erb` files.
+
+![Loggregator Diagram](docs/loggregator.png)
+
+![Partner Template landing page](docs-book/master_middleman/source/images/partner-template-landing.png)
+
+![Partner Template service index page](docs-book/master_middleman/source/images/partner-template-service-index.png)
