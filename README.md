@@ -138,7 +138,7 @@ In Terminal window:
 
 ![Partner Template service index page](docs-book/master_middleman/source/images/partner-template-service-index.png)
 
-1. After each session of writing or revising your docs source files, commit and push them to your github repo.
+After each session of writing or revising your docs source files, commit and push them to your github repo.
 
 Happy documenting!
 
