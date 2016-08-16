@@ -34,6 +34,7 @@ Bookbinder draws the content for the site from `docs-content`, the subnav from `
 
 To use Bookbinder to view your documentation, perform the following steps:
 
+1. Install Bookbinder by running `gem install bookbindery`. If you have trouble, consult the [Zero to Bookbinder](#zero-to-bookbinder) section to make sure you have the correct dependencies installed.
 1. On your local machine, `cd` into `docs-book` in the cloned repo.
 1. Run `bundle install` to make sure you have all the necessary gems installed.
 1. Build your documentation site with `bookbinder` in one of the two following ways:
