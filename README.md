@@ -19,11 +19,12 @@ Partners use this template to develop the documentation for their PCF service. T
 
 To begin using this repo to develop your documentation, perform the following steps:
 
-1. Clone this repo onto your local machine.
+1. Make a fork of this repo.
+1. Clone your fork onto your local machine.
 1. Work your way through each topic, replacing the placeholders in ALL-CAPS and following the instructions in **bold**. 
 1. Complete the subnav by replacing the placeholders in ALL-CAPS in the subnav file at `docs-book/master_middleman/source/subnavs/myservice_subnav.erb` in this repo.
 1. View your documentation as a live local site in a browser, by following the steps below in the [How To Use Bookbinder To View Your Docs](#bookbinder) section.
-1. When you've finished your documentation, push your docs up to the remote and email the PCF Docs Team at cf-docs@pivotal.io.
+1. When you've finished your documentation, make a pull request to merge your fork into this repo and email the PCF Docs Team at cf-docs@pivotal.io.
 
 ### <a id='bookbinder'></a>How To Use Bookbinder To View Your Docs
 
