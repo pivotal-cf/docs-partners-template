@@ -130,10 +130,10 @@ In Terminal window:
 
     `$ bundle install`
 
-1. Run `bookbinder watch` to build the book on your machine.
+1. Run `bookbinder watch` to build the book on your machine. If it doesn't succeed, try prepending the command with `bundle exec` so that bookbinder uses local gems instead of global gems.
 
-   `$ bookbinder watch`
-
+   `$ bundle exec bookbinder watch`
+   
 1. Browse to `localhost:4567` to view the book locally and "watch" any changes that you make to source `html.md.erb` files. As you make and save changes to the local source files for your site, you will see them in your browser after a slight delay.
 
 ![Partner Template landing page](docs-book/master_middleman/source/images/partner-template-landing.png)
