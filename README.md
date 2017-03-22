@@ -142,6 +142,12 @@ In Terminal window:
 
 After each session of writing or revising your docs source files, commit and push them to your github repo.
 
+#### Follow the Style Rules
+
+For basic style questions, see the _Chicago Manual of Style_.
+
+See [Notes for Tile Authors](https://docs.google.com/spreadsheets/d/11rtJAoz1r3mvAHt-gXryFVeClgwP58_KOH3yupsWGHA/edit?usp=sharing) for some specific style guidance.
+
 Happy documenting!
 
 
