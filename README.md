@@ -106,6 +106,8 @@ In Terminal window:
 
     `$ ruby-install ruby 2.3`
 
+1. `chruby ruby-2.3.3`
+
 #### Install Bookbinder
 
 1. Install `bundler`.
