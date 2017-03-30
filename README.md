@@ -104,9 +104,11 @@ In Terminal window:
 
 1. Run `ruby-install` to install Ruby.
 
-    `$ ruby-install ruby 2.3`
+    `$ ruby-install ruby 2.3.3`
 
-1. `chruby ruby-2.3.3`
+1. Select the following Ruby version.
+
+    `chruby ruby-2.3.3`
 
 #### Install Bookbinder
 
