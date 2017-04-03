@@ -2,6 +2,15 @@
 
 This topic provides style guidelines to follow when writing documentation for Pivotal Partner tiles. 
 
+In this topic:
+
+* [Punctuation](#punctuation)
+* [Images](#images)
+* [Verbs and Tenses](#verbs)
+* [Formatting](#formatting)
+* [Procedures](#procedures)
+* [Legal Issues](#legal)
+
 ## <a id='punctuation'></a> Punctuation
 
 Ensure you follow the rules below:
