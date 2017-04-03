@@ -62,7 +62,7 @@ In this topic:
 * If you choose and abbreviated form of the name, spell out the product name
 in full in its first use in body text on each page, with the abbreviated 
 version in parenthesis after it. 
-	* **Example**: Pivotal Cloud Foundry (PCF)
+	* **Example**: "Pivotal Cloud Foundry (PCF)"
 * If you choose to use a trademark for your product name, add the trademark 
 only to the first use in body text on each page. 
 * Never mention features that you intend to include in a future release. 
