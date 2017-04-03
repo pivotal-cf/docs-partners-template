@@ -13,8 +13,6 @@ In this topic:
 
 ## <a id='punctuation'></a> Punctuation
 
-Ensure you follow the rules below:
-
 * Use the serial or Oxford comma. 
 	* **Correct**: "x, y, and z"
 	* **Incorrect**: "x, y and z" 
@@ -61,10 +59,10 @@ Ensure you follow the rules below:
 ## <a id='lega'></a> Legal Issues
 
 * Always use your product name (and our product name) correctly. 
-* If you choose and abbreviated form of the name, spel out the product name
+* If you choose and abbreviated form of the name, spell out the product name
 in full in its first use in body text on each page, with the abbreviated 
 version in parenthesis after it. 
-	**Example**: Pivotal Cloud Foundry (PCF)
+	* **Example**: Pivotal Cloud Foundry (PCF)
 * If you choose to use a trademark for your product name, add the trademark 
-on the first use in body text on each page. 
+only to the first use in body text on each page. 
 * Never mention features that you intend to include in a future release. 

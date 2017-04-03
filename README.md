@@ -22,6 +22,7 @@ To begin using this repo to develop your documentation, perform the following st
 1. Make a fork of this repo.
 1. Clone your fork onto your local machine.
 1. Work your way through each topic, replacing the placeholders in ALL-CAPS and following the instructions in **bold**. 
+    * When writing your documentation, follow the guidelines in [Style Notes for Tile Authors](style-guide.md).
 1. Complete the subnav by replacing the placeholders in ALL-CAPS in the subnav file at `docs-book/master_middleman/source/subnavs/myservice_subnav.erb` in this repo.
 1. View your documentation as a live local site in a browser, by following the steps below in the [How To Use Bookbinder To View Your Docs](#bookbinder) section.
 1. When you've finished your documentation, make a pull request to merge your fork into this repo and email the PCF Docs Team at cf-docs@pivotal.io.
@@ -140,18 +141,11 @@ In Terminal window:
    
 1. Browse to `localhost:4567` to view the book locally and "watch" any changes that you make to source `html.md.erb` files. As you make and save changes to the local source files for your site, you will see them in your browser after a slight delay.
 
-![Partner Template landing page](./docs-book/master_middleman/source/images/partner-template-landing.png)
-
-![Partner Template service index page](./docs-book/master_middleman/source/images/partner-template-service-index.png)
-
-After each session of writing or revising your docs source files, commit and push them to your github repo.
-
-#### Follow the Style Rules
-
-For basic style questions, see the _Chicago Manual of Style_.
-
-See [Notes for Tile Authors](https://docs.google.com/spreadsheets/d/11rtJAoz1r3mvAHt-gXryFVeClgwP58_KOH3yupsWGHA/edit?usp=sharing) for some specific style guidance.
+1. After each session of writing or revising your docs source files, commit and push them to your github repo.
 
 Happy documenting!
 
+![Partner Template landing page](./docs-book/master_middleman/source/images/partner-template-landing.png)
+
+![Partner Template service index page](./docs-book/master_middleman/source/images/partner-template-service-index.png)
 
