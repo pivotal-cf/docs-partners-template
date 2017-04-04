@@ -33,7 +33,7 @@ In this topic:
 ## <a id='verbs'></a> Verbs and Tenses
 
 * Don't use future tense when you can use the present tense. 
-	* **Correct**: "A pop-up appears.""
+	* **Correct**: "A pop-up appears."
 	* **Incorrect**: "A pop-up will appear."
 * Use simple tenses; don't use "should".
 * Use the imperative whenever possible. 
