@@ -135,7 +135,7 @@ In Terminal window:
 
     `$ bundle install`
 
-1. Run `bundle exec bookbinder watch` to build the book on your machine. If it doesn't succeed, try prepending the command with `bundle exec` so that bookbinder uses local gems instead of global gems.
+1. Run `bundle exec bookbinder watch` to build the book on your machine.
 
    `$ bundle exec bookbinder watch`
    
