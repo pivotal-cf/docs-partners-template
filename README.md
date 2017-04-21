@@ -89,7 +89,7 @@ In Terminal window:
 
     `$ cat ~/.ssh/id_rsa.pub # copy and paste this into Github profile page as new key`
 
-#### Get the Correct Ruby Version
+#### Get the Correct Ruby Version for Bookbinder: Ruby 2.3.0
 
 1. Install a Ruby manager such as chruby.
 
@@ -103,13 +103,13 @@ In Terminal window:
 
     `$ brew install ruby-install`
 
-1. Run `ruby-install` to install Ruby.
+1. Run `ruby-install` to install Ruby 2.3.0.
 
-    `$ ruby-install ruby 2.3.3`
+    `$ ruby-install ruby 2.3.0`
 
 1. Select the following Ruby version.
 
-    `chruby ruby-2.3.3`
+    `chruby ruby-2.3.0`
 
 #### Install Bookbinder
 
