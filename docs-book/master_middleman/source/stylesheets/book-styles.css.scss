@@ -5,3 +5,12 @@
 // .container {
 //   color: mediumvioletred;
 // }
+
+.note.warning {
+  background-color: #fdd;
+  border-color: #fbb
+  }
+
+.note.warning:before {
+  color: #f99;
+  }
