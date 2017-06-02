@@ -66,6 +66,6 @@ only to the first use in body text on each page.
 ## <a id='verbs'></a> Language Tips
 
 * Don't use "we". 
-	* **Correct**: "YOUR-COMPANY-NAME recommends&helip;"
-	* **Incorrect**: "We recommend&helip;.
+	* **Correct**: "YOUR-COMPANY-NAME recommends..."
+	* **Incorrect**: "We recommend..."
 
