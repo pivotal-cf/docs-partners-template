@@ -35,10 +35,6 @@ In this topic:
 * Don't use future tense when you can use the present tense. 
 	* **Correct**: "A pop-up appears."
 	* **Incorrect**: "A pop-up will appear."
-* Use simple tenses; don't use "should".
-* Use the imperative whenever possible. 
-	* **Correct**: "Download..."
-	* **Incorrect** "The operator should download..."
 
 ## <a id='formatting'></a> Formatting
 
@@ -66,3 +62,10 @@ version in parenthesis after it.
 * If you choose to use a trademark for your product name, add the trademark 
 only to the first use in body text on each page. 
 * Never mention features that you intend to include in a future release. 
+
+## <a id='verbs'></a> Language Tips
+
+* Don't use "we". 
+	* **Correct**: "YOUR-COMPANY-NAME recommends&helip;"
+	* **Incorrect**: "We recommend&helip;.
+
