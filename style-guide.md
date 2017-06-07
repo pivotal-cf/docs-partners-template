@@ -17,7 +17,7 @@ In this topic:
 	* **Correct**: "x, y, and z"
 	* **Incorrect**: "x, y and z" 
 * Don't use parentheses unless you are indicating an acronym. 
-	* **Example**: "Pivotal Cloud Foundry (PCF)""
+	* **Example**: "Pivotal Cloud Foundry (PCF)"
 * Don't use slashes; write "and" or "or".
 * Don't use "&" ; write "and".
 * Capitalize main words in headings.
@@ -69,3 +69,8 @@ only to the first use in body text on each page.
 	* **Correct**: "YOUR-COMPANY-NAME recommends..."
 	* **Incorrect**: "We recommend..."
 
+* Spell out most acronyms when first used in body text on a page.
+	* **Example**: "application security group (ASG)"
+	* **Example**: "availability zone (AZ)"
+	
+* For more tips about language, see [Word and Phrase List: Public Facing](https://docs.google.com/spreadsheets/d/1y-OI7LRZrVWRbs-ZplxFhNWRETAqFSSd9CpDPAu93W0/edit?usp=sharing).
