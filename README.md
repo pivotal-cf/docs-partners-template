@@ -143,7 +143,7 @@ In Terminal window:
 
 1. After each session of writing or revising your docs source files, commit and push them to your github repo.
 
-## About Subnavs of Published Tile Documentation
+### About Subnavs of Published Tile Documentation
 
 After your tile documentation has been published, the subnav used for the live documentation is contained in this directory: https://github.com/pivotal-cf/docs-book-partners/tree/master/master_middleman/source/subnavs
 
