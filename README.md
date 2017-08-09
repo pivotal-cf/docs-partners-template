@@ -143,6 +143,18 @@ In Terminal window:
 
 1. After each session of writing or revising your docs source files, commit and push them to your github repo.
 
+## About Subnavs of Published Tile Documentation
+
+After your tile documentation has been published, the subnav used for the live documentation is contained in this directory: https://github.com/pivotal-cf/docs-book-partners/tree/master/master_middleman/source/subnavs
+
+However, you should also continue to maintain the local subnav file so that looks correct when you or a Pivotal writer builds your documentation locally with bookbinder to review it.
+
+To edit a subnav for your tile documentation, follow these steps:
+
+1. Make a pull request against the subnav file in https://github.com/pivotal-cf/docs-book-partners/tree/master/master_middleman/source/subnavs
+
+2. Make the same changes in the subnav file (in /docs-book/master_middleman/source/subnavs/ of your tile repo) and make a pull request for that change too.
+
 Happy documenting!
 
 ![Partner Template landing page](./docs-book/master_middleman/source/images/partner-template-landing.png)
