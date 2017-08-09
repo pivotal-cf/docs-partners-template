@@ -147,7 +147,7 @@ In Terminal window:
 
 After your tile documentation has been published, the subnav used for the live documentation is contained in this directory: https://github.com/pivotal-cf/docs-book-partners/tree/master/master_middleman/source/subnavs
 
-However, you should also continue to maintain the local subnav file so that looks correct when you or a Pivotal writer builds your documentation locally with bookbinder to review it.
+However, you should also continue to maintain the local subnav file so that the subnav looks correct when you or a Pivotal writer builds your documentation locally with bookbinder for review or editing.
 
 To edit a subnav for your tile documentation, follow these steps:
 
