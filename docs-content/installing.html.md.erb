@@ -1,28 +1,106 @@
 ---
-title: Installing and Configuring YOUR-PRODUCT-NAME
+title: Installing and Configuring Conjur Service Broker for PCF
 owner: Partners
 ---
+ 
 
-This topic describes how to install and configure YOUR-PRODUCT-NAME.
+This topic describes how to install and configure Conjur Service Broker for PCF.
 
-##<a id='install'></a> Install and Configure YOUR-PRODUCT-NAME
+##<a id='install'></a> Install and Configure Conjur Service Broker for PCF
 
-1. Download the product file from Pivotal Network.
+1. Download the Conjur Service Broker for PCF product file from <a href = "https://network.pivotal.io">Pivotal Network</a>.
 
 1. Navigate to the Ops Manager Installation Dashboard and click **Import a Product** to upload the product file. 
 
-1. Under the **Import a Product** button, click **+** next to the version number of YOUR-PRODUCT-NAME. 
+1. Under the **Import a Product** button, click **+** next to the version number of Conjur Service Broker for PCF. 
 This adds the tile to your staging area.
 
-1. Click the newly added **YOUR-PRODUCT-NAME** tile.
+1. Click the newly added **Conjur Service Broker for PCF** tile.
 
-1. **This portion of the procedure should tell the users how to configure the newly added tile by
-walking them through the sections. Which fields should they fill out? What are the different
-checkboxes? Include relevant screenshots here.** 
+1. Click **Settings** to configure the service broker.  
+
+  For information on how to configure the properties on each side-tab, see the following topics.  Any settings that are not explicitly mentioned in the following topics may remain at their default values.
+  
+  - <a href = "assign-az">Assign AZs and Networks</a>
+  - <a href = "config-service-broker">Configure Service Broker</a>  
+  - <a href = "config-buildpack">Configure Buildpack</a>  
+  - <a href = "config-service-access">Configure Service Access</a>
+  - <a href = "config-errands">Configure Errands</a>
+  - <a href = "config-resources">Configure Resources</a>   
+  - <a href = "config-stemcell">Configure Stemcell</a>
+
 
 1. Click **Save**.
 
 1. Return to the Ops Manager Installation Dashboard and click **Apply changes** to install YOUR-PRODUCT-NAME tile.
+ 
+###<a id='assign-az'></a>Assign AZs and Networks
 
-**If needed, include additional configuration information below. For example, maybe there are
-configuration options not required for installation but which could be useful for certain users.**
+  Choose appropriate values to configure the location of service instance jobs.  
+  ? more needed? what shows up here? are these all the containers where you have instances of conjur running?  What are "jobs" in the context of Conjur?  
+
+###<a id='config-service-broker'></a>Configure Service Broker  
+
+The following fields are required to establish communication with a Conjur host:
+
+
+  - **Conjur Account**: The organization account   assigned during Conjur configuration. The account is typically a lower-case name of your organization  such as duff or usgovt.  
+   
+
+  - **Conjur Appliance URL**: The URL of the Conjur appliance instance you are connecting to.
+
+  ?is this a host:port format? should we say that or show an example. 
+
+  - **Conjur Login**: The username of a Conjur user. 
+  
+  The user must have update privilege on all Conjur policies associated with your PCF-deployed applications. This login is used to add and remove hosts from the Conjur policy files as your applications are deployed to or removed from PCF. 
+
+  - **Conjur API Key**: The API Key of the Conjur user whose username you have provided in the **Conjur Login** field. 
+
+ ? Should we say: For more information about the Conjur API Key, see ....  and point to something on our website, or it could be included here. ? 
+
+
+
+###<a id='config-buildpack'></a>Configure Buildpack  
+
+The following build sequence is required. 
+  
+ - Build the **meta\_buildpack** first.
+ - Build the **conjur\_buildpack** second. 
+
+Changing this configuration might negatively impact your ability to connect to Conjur from PCF.
+
+###<a id='config-service-access'></a>Configure Service Access
+
+??are there other settings on this tab? we should probably list them all?
+
+  - **Enable global access to plans of service Conjur**: 
+  
+   - If checked, the Conjur service is available to all PCF users, across all orgs and spaces. This is the default after installation of the Conjur Service Broker for PCF. 
+   
+   - If unchecked, you can configure more precise access control. Use **cf enable-service-access** to specify which orgs and spaces can access the Conjur service.    For example:
+   
+   **$ cf enable-service-access <let's give an explanatory example>** (when it's working)  
+   
+
+###<a id='config-errands'></a>Configure Errands
+
+You may keep the default settings. 
+
+?? is that a recommendation, a requirement,  or can they change settings if they want to?    
+?? Should we describe our errands? -- the MongoDB tile docs do include a description of their errands.   
+
+###<a id='config-resources'></a>Configure Resources 
+
+You may keep the default settings. 
+ 
+??any guidelines??  
+   
+
+###<a id='config-stemcell'></a>Configure Stemcell 
+
+??The info below belongs further up in the  installation instructions.... That's where they will encounter the messages and have to react to it.  I will move it.  
+??BUT QUESTION: what shows up here in this tab? are there any stemcell configurations needed?? 
+
+The latest major stemcell release is required by Conjur Service Broker for PCF. If you haven’t already loaded this stemcell into your Ops Manager, you may see a message when you are installing the service tile that says something like Go to Pivotal Network and download Stemcell 3468 ubuntu-trusty. Before completing your tile installation, you will need to go to the Pivotal Network, download the appropriate stemcell, and click the “Import Stemcell” button in your Ops Manager tile configuration to upload the stemcell zipfile you downloaded from PivNet. Once you complete this step, you will be able to finish your Conjur Service Broker installation as usual.
+
