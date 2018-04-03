@@ -5,9 +5,9 @@
 :subnav_templates:
   myservice: myservice_subnav
 :template_variables: 
-:local_repo_dir: "/Users/ljarzynski/workspace/docs-partners-template"
+:local_repo_dir: "/Users/pavan.krishna/appdy/docs-appdynamics-pcf"
 :workspace: !ruby/object:Pathname
-  path: "/Users/ljarzynski/workspace/docs-partners-template/docs-book/output/master_middleman/source"
+  path: "/Users/pavan.krishna/appdy/docs-appdynamics-pcf/docs-book/output/master_middleman/source"
 :feedback_enabled: 
 :repo_link_enabled: true
 :repo_links:
@@ -18,3 +18,4 @@
 :product_info:
   myservice: {}
 :elastic_search: false
+:proof: false

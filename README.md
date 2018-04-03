@@ -160,4 +160,3 @@ Happy documenting!
 ![Partner Template landing page](./docs-book/master_middleman/source/images/partner-template-landing.png)
 
 ![Partner Template service index page](./docs-book/master_middleman/source/images/partner-template-service-index.png)
-
