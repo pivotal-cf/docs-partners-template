@@ -1,0 +1,4 @@
+APM|FEATURE|New Service Broker implements OpenServiceBrokerApi(2.11)
+APM|FEATURE|Lighter on Memory Requirement
+APM|FEATURE|Works only with PCF (2.0) or higher
+APM|LIMITATION|Machine Agent metrics based on Old JMX bridge has been deprecated.

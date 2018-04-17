@@ -1,30 +1,42 @@
 ---
-title: Installing and Configuring YOUR-PRODUCT-NAME
+title: Installing and Configuring Appdynamics
 owner: Partners
 ---
 
-This topic describes how to install and configure YOUR-PRODUCT-NAME.
+This topic describes how to install and configure Appdynamics APM monitoring in Pivotal Cloud Foundry.
 
-##<a id='install'></a> Install and Configure YOUR-PRODUCT-NAME
+## <a id='before-you-start'></a>Before You Start
 
-To install the YOUR-PRODUCT-NAME file on the Ops Manager Installation Dashboard, do the following:
+Create a [Pivotal Network](https://network.pivotal.io) account if you do not have one.
 
-1. Download the product file from Pivotal Network.
 
-1. Navigate to the Ops Manager Installation Dashboard and click **Import a Product** to upload the product file. 
+## <a id='set-up-the-service-broker-tile'></a> Set up the Service Broker Tile
 
-1. Under the **Import a Product** button, click **+** next to the version number of YOUR-PRODUCT-NAME. 
-This adds the tile to your staging area.
+1. Log in to the Ops Manager.
 
-1. Click the newly added **YOUR-PRODUCT-NAME** tile.
+2. If the AppDynamics Service Broker tile does not appear in the Installation Dashboard, click __Import a Product__ in the left-side menu and import the AppDynamics tile.
 
-1. **This portion of the procedure should tell the users how to configure the newly added tile by
-walking them through the sections. Which fields should they fill out? What are the different
-checkboxes? Include relevant screenshots here.** 
+3. Double-click on the __AppDynamics__ tile in the Installation Dashboard.
 
-1. Click **Save**.
+4. In the Settings tab, click __AppDynamics Controller Configuration__ (left menu). Then click __Add__ (right side of the page). ![](./images/install-02-appd-controller-config-add.png)
 
-1. Return to the Ops Manager Installation Dashboard and click **Apply changes** to install YOUR-PRODUCT-NAME tile.
+5. Enter the following Service Plan options. All these fields are required. The [Java Agent configuration page](https://docs.appdynamics.com/display/LATEST/Java+Agent+Configuration+Properties) page includes descriptions for these options.
 
-**If needed, include additional configuration information below. For example, maybe there are
-configuration options not required for installation but which could be useful for certain users.**
+  1. Controller configuration name
+
+  1. Controller configuration description
+
+  1. Account Name --  The account name used to access the Controller
+
+  1. Account Access Key --  In the Controller, click the gear icon  and choose _License > Account > Access Key_.
+       If the Account Access Key includes a one or more '$' characters, append a second '$' to every '$' included in the key string and surround the entire string with single quotes(').
+
+  1. Controller Host
+
+  1. Controller Port
+
+  1. SSL Port --  Do not enable. SSL is not supported in this version of the tile. ![](./images/install-03-controller-config-options.png)
+
+6. Click __Save__ to save the changes and return to the Installation Dashboard.
+
+7. In the Installation Dashboard, click __Apply Changes__ (right pane) and wait for all the changes to get applied.
