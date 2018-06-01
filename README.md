@@ -6,7 +6,7 @@ This template helps partners prepare documentation for Pivotal Cloud Foundry (PC
 
 Every partner service in PCF is documented on our PCF documentation site. The links to these partner service docs appear on the [front page](http://docs.pivotal.io) under **Partner Services for Pivotal Cloud Foundry**.
 
-For a good example of a partner service doc, see [ISS Knowtify Search Analytics](http://docs.pivotal.io/knowtify/index.html).
+For a good example of a partner service doc, see [MongoDB Enterprise Service for PCF](https://docs.pivotal.io/partners/mongodb/index.html).
 
 ### <a id='template'></a>How To Use This Template
 
