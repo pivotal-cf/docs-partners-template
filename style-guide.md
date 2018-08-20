@@ -28,7 +28,7 @@ In this topic:
 
 * In Markdown, you can code images as follows: `![ALT-TEXT](IMAGE-FILE.png)`. 
 	* Except for html tables, wherein you code images as follows: `<img src="IMAGE-FILE.png" alt="ALT-TEXT">`. 
-* Put a 1-pixel black border around all images. You can use the command line utility, [Bordify](https://github.com/bentarnoff/bordify). 
+
 
 ## <a id='verbs'></a> Verbs and Tenses
 
