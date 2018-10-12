@@ -35,6 +35,7 @@ In this topic:
 * Don't use future tense when you can use the present tense. 
 	* **Correct**: "A pop-up appears."
 	* **Incorrect**: "A pop-up will appear."
+* Don't use contractions like "don't".
 
 ## <a id='formatting'></a> Formatting
 
