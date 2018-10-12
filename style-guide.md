@@ -9,7 +9,9 @@ In this topic:
 * [Verbs and Tenses](#verbs)
 * [Formatting](#formatting)
 * [Procedures](#procedures)
+* [Dates](#dates)
 * [Legal Issues](#legal)
+* [Language Tips](#languagetips)
 
 ## <a id='punctuation'></a> Punctuation
 
@@ -52,6 +54,13 @@ In this topic:
 	* **Incorrect**: "Installing Squidsoft"
 * Use the gerund for topic titles if the topic contains procedures.
 	* **Example**: "Using Squidsoft"
+	
+## <a id='dates'></a> Dates
+
+Spell out dates with the full month, day, and year.
+For example:
++ September 29, 2018
++ May 1, 2017
 
 ## <a id='lega'></a> Legal Issues
 
@@ -64,7 +73,7 @@ version in parenthesis after it.
 only to the first use in body text on each page. 
 * Never mention features that you intend to include in a future release. 
 
-## <a id='verbs'></a> Language Tips
+## <a id='languagetips'></a> Language Tips
 
 * Don't use "we". 
 	* **Correct**: "YOUR-COMPANY-NAME recommends..."
