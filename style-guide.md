@@ -22,7 +22,7 @@ In this topic:
 	* **Example**: "Pivotal Cloud Foundry (PCF)"
 * Don't use slashes; write "and" or "or".
 * Don't use "&" ; write "and".
-* Capitalize main words in headings.
+* Capitalize main words in headings. Use Chicago style.
 	* **Correct**: Using the Squidsoft Dashboard
 	* **Incorrect**: Using the Squidsoft dashboard
 
