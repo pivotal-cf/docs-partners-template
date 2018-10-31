@@ -23,6 +23,7 @@ In this topic:
 * Don't use slashes; write "and" or "or".
 * Don't use "&" ; write "and".
 * Capitalize main words in headings. Use Chicago style.
+  If you are unsure, use an online tool, such as [Capitalize My Title](https://capitalizemytitle.com/).
 	* **Correct**: Using the Squidsoft Dashboard
 	* **Incorrect**: Using the Squidsoft dashboard
 
