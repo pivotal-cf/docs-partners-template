@@ -47,6 +47,8 @@ In this topic:
 * Don't put quotes around UI elements. 
 * Don't use italic. 
 * Keep lines short in the source file. Fewer than 100 characters is preferred. 
+* When formatting commands, use the house style shown in 
+ [Documenting Commands](https://docs-wiki.cfapps.io/wiki/style/documenting-commands.html).
 
 ## <a id='procedures'></a> Procedures
 
