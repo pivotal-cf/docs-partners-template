@@ -58,6 +58,7 @@ In this topic:
 	* **Incorrect**: "Installing Squidsoft"
 * Use the gerund for topic titles if the topic contains procedures.
 	* **Example**: "Using Squidsoft"
+	
 	Do not use gerunds for headings within a topic.
 * Always put some introductory text between a title and the first step of a procedure.
 	* **Example**: "To migrate from one service instance to another, do the following:"
