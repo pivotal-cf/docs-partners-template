@@ -92,7 +92,8 @@ only to the first use in body text on each page.
 	* **Example**: "application security group (ASG)"
 	* **Example**: "availability zone (AZ)"
 	
-* For more tips about language, see [Word and Phrase List: Public Facing](https://docs.google.com/spreadsheets/d/1y-OI7LRZrVWRbs-ZplxFhNWRETAqFSSd9CpDPAu93W0/edit?usp=sharing).
+* For more tips about language,
+  see [Word and Phrase List: Public Facing](https://docs.google.com/spreadsheets/d/1y-OI7LRZrVWRbs-ZplxFhNWRETAqFSSd9CpDPAu93W0/edit?usp=sharing).
 
 ## <a id='cross-references'></a> Cross-References
 
