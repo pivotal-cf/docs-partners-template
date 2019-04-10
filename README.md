@@ -2,7 +2,7 @@
 
 https://docs.pivotal.io/partners/PATH/ 
 
-_Add the link to the published doc when the product goes live_
+_Add the link to the published doc when the product goes live._
 
 ## Pivotal Cloud Foundry Partners Template
 
