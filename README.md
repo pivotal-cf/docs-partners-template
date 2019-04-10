@@ -1,3 +1,9 @@
+## Link to Published Content
+
+https://docs.pivotal.io/partners/PATH/ 
+
+_Add the link to the published doc when the product goes live_
+
 ## Pivotal Cloud Foundry Partners Template
 
 This template helps partners prepare documentation for Pivotal Cloud Foundry (PCF) partner services that appear on [Pivotal Network](https://network.pivotal.io/). 
