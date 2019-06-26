@@ -31,7 +31,7 @@ To begin using this repo to develop your documentation, perform the following st
     * When writing your documentation, follow the guidelines in [Style Notes for Tile Authors](style-guide.md).
 1. Complete the subnav by replacing the placeholders in ALL-CAPS in the subnav file at `docs-book/master_middleman/source/subnavs/myservice_subnav.erb` in this repo.
 1. View your documentation as a live local site in a browser, by following the steps below in the [How To Use Bookbinder To View Your Docs](#bookbinder) section or by installing and using [Bookdocker](https://github.com/pivotal-cf-experimental/bookdocker/).
-1. When you've finished your documentation, make a pull request to merge your fork into this repo and email the PCF Docs Team at cf-docs@pivotal.io.
+1. When you've finished your documentation, make a pull request to merge your fork into this repo and email the ISV team at ISV-TPM@pivotal.io.
 
 ### <a id='bookbinder'></a>How To Use Bookbinder To View Your Docs
 
