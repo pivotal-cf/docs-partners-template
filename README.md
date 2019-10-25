@@ -4,19 +4,21 @@ https://docs.pivotal.io/partners/PATH/
 
 _Add the link to the published doc when the product goes live._
 
-## Pivotal Cloud Foundry Partners Template
+## Pivotal Platform Partners Template
 
-This template helps partners prepare documentation for Pivotal Cloud Foundry (PCF) partner services that appear on [Pivotal Network](https://network.pivotal.io/). 
+This template helps partners prepare documentation for Pivotal Platform partner services that appear on [Pivotal Network](https://network.pivotal.io/). 
 
 ### <a id='overview'></a>Overview
 
-Every partner service in PCF is documented on our PCF documentation site. The links to these partner service docs appear on the [front page](http://docs.pivotal.io) under **Partner Services for Pivotal Cloud Foundry**.
+Every partner service in Pivotal Platform is documented on our Pivotal Platform documentation site.
+The links to these partner service docs appear on the [front page](http://docs.pivotal.io) under **Partner Services for Pivotal Platform**.
 
-For a good example of a partner service doc, see [MongoDB Enterprise Service for PCF](https://docs.pivotal.io/partners/mongodb/index.html).
+For a good example of a partner service doc, see [MongoDB Enterprise Service for Pivotal Platform](https://docs.pivotal.io/partners/mongodb/index.html).
 
 ### <a id='template'></a>How To Use This Template
 
-Partners use this template to develop the documentation for their PCF service. This repo currently includes templates for the following topics:
+Partners use this template to develop the documentation for their Pivotal Platform service.
+This repo currently includes templates for the following topics:
 
 * [index.html.md.erb](./docs-content/index.html.md.erb): The index of your docs.
 * [installing.html.md.erb](./docs-content/installing.html.md.erb): How to install and configure your product tile.
@@ -35,7 +37,9 @@ To begin using this repo to develop your documentation, perform the following st
 
 ### <a id='bookbinder'></a>How To Use Bookbinder To View Your Docs
 
-[Bookbinder](https://github.com/pivotal-cf/bookbinder/blob/master/README.md) is a command-line utility for stitching Markdown docs into a hostable web app. The PCF Docs Team uses Bookbinder to publish our docs site, but you can also use Bookbinder to view a live version of your documentation on your local machine.
+[Bookbinder](https://github.com/pivotal-cf/bookbinder/blob/master/README.md) is a command-line utility for stitching Markdown docs into a hostable web app.
+The Pivotal Platform Docs Team uses Bookbinder to publish our docs site,
+but you can also use Bookbinder to view a live version of your documentation on your local machine.
 
 Bookbinder draws the content for the site from `docs-content`, the subnav from `docs-book`, and various layout configuration and assets from `docs-layout`.
 

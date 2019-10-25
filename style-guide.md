@@ -20,7 +20,7 @@ In this topic:
 	* **Correct**: "x, y, and z"
 	* **Incorrect**: "x, y and z" 
 * Don't use parentheses unless you are indicating an acronym. 
-	* **Example**: "Pivotal Cloud Foundry (PCF)"
+	* **Example**: "Pivotal Application Service (PAS)"
 * Don't use slashes; write "and" or "or".
 * Don't use "&" ; write "and".
 * Capitalize main words in headings. Use Chicago style.
@@ -77,7 +77,7 @@ For example:
 * If you choose and abbreviated form of the name, spell out the product name
 in full in its first use in body text on each page, with the abbreviated 
 version in parenthesis after it. 
-	* **Example**: "Pivotal Cloud Foundry (PCF)"
+	* **Example**: "Pivotal Application Service (PAS)"
 * If you choose to use a trademark for your product name, add the trademark 
 only to the first use in body text on each page. 
 * Never mention features that you intend to include in a future release. 
