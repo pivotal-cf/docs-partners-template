@@ -12,7 +12,6 @@ In this topic:
 * [Dates](#dates)
 * [Legal Issues](#legal)
 * [Language Tips](#languagetips)
-* [Cross-References](#cross-references)
 
 ## <a id='punctuation'></a> Punctuation
 
@@ -47,8 +46,7 @@ In this topic:
 * Don't put quotes around UI elements. 
 * Don't use italic. 
 * Keep lines short in the source file. Fewer than 100 characters is preferred. 
-* When formatting commands, use the house style shown in 
- [Documenting Commands](https://docs-wiki.cfapps.io/wiki/style/documenting-commands.html).
+
 
 ## <a id='procedures'></a> Procedures
 
@@ -95,8 +93,3 @@ only to the first use in body text on each page.
 * For more tips about language,
   see [Word and Phrase List: Public Facing](https://docs.google.com/spreadsheets/d/1y-OI7LRZrVWRbs-ZplxFhNWRETAqFSSd9CpDPAu93W0/edit?usp=sharing).
 
-## <a id='cross-references'></a> Cross-References
-
-This document describes how to format cross-references:
-
-[Formatting Cross-References](https://docs-wiki.cfapps.io/wiki/style/cross-ref-style.html)
