@@ -35,10 +35,10 @@ configuration settings.
     ![Splunk OpenTelemetry Collector nozzle configuration](tanzu_nozzle_config.png)
 
     1. **RLP gateway shard ID**: Metrics are load balanced between receivers that use the same shard ID.
-    Only change from the default value if multiple receivers must receive all metrics instead of balancing metrics
+    Only modify the default value if multiple receivers must receive all metrics instead of balancing metrics
     between them.
     1. (Optional) **Skip TLS validation for RLP**: Whether to skip TLS verification for the RLP gateway endpoint.
-    1. **UAA username**: Name of the UAA user.
+    1. **UAA username**: Name of the User Account and Authentication (UAA) user.
     1. **UAA password**: Password of the UAA user.
     1. (Optional) **Skip TLS validation for UAA**: Whether to skip TLS verification for the UAA endpoint.
     1. (Optional) **HTTP proxy URL**: URL used as the proxy URL for HTTP requests unless overridden
