@@ -1,34 +1,76 @@
 ---
-title: Installing and Configuring YOUR-PRODUCT-NAME
+title: Installing and Configuring Splunk OpenTelemetry Collector for VMware Tanzu
 owner: Partners
 ---
 
 <strong><%= modified_date %></strong>
 
-This topic describes how to install and configure YOUR-PRODUCT-NAME.
+This topic describes how to install and configure Splunk OpenTelemetry Collector for VMware Tanzu.
 
-##<a id='install'></a> Install and Configure YOUR-PRODUCT-NAME
+##<a id='install'></a> Install and Configure Splunk OpenTelemetry Collector for VMware Tanzu
 
-To install the YOUR-PRODUCT-NAME file on the Ops Manager Installation Dashboard, do the following:
+To install the Splunk OpenTelemetry Collector for VMware Tanzu file on the Ops Manager Installation Dashboard,
+do the following:
 
-1. Download the product file from Pivotal Network.
+1. Download the **Splunk OpenTelemetry Collector for VMware Tanzu** product file from Pivotal Network.
 
 1. Navigate to the Ops Manager Installation Dashboard and click **Import a Product** to upload the product file.
 
-1. Under **Import a Product**, click **+** next to the version number of YOUR-PRODUCT-NAME.
-This adds the tile to your staging area.
+1. Under **Import a Product**, click **+** next to the version number of Splunk OpenTelemetry Collector
+for VMware Tanzu. This adds the tile to your staging area.
 
-1. Click the newly added **YOUR-PRODUCT-NAME** tile.
+1. Click the newly added **Splunk OpenTelemetry Collector for VMware Tanzu** tile to access the
+configuration settings.
 
-1. **This portion of the procedure should tell the users how to configure the newly added tile by
-walking them through the sections. Which fields should they fill out? What are the different
-checkboxes? Include relevant screenshots here.**
+    ![Splunk OpenTelemetry Collector for VMware Tanzu](tanzu_tile_in_ops_mgr.png)
 
-1. Click **Save**.
+1. **Assign AZs and Networks**
 
-1. Return to the Ops Manager Installation Dashboard and click **Apply changes** to install YOUR-PRODUCT-NAME tile.
+    1. Choose placement.
 
-**If needed, include additional configuration information below. For example, maybe there are
-configuration options not required for installation but which could be useful for certain users. Typical topics include:**
-1. **Self-service**--Do you have recommendations on how to configure/design plans in the tile so that users can choose the best options for themselves?
-1. **High availability**--How do you configure/deploy X Service tile to be highly available?
+    1. Click **Save**.
+
+1. **Nozzle Config**
+
+    ![Splunk OpenTelemetry Collector nozzle configuration](tanzu_nozzle_config.png)
+
+    1. **RLP gateway shard ID**: Metrics are load balanced between receivers that use the same shard ID.
+    Only modify the default value if multiple receivers must receive all metrics instead of balancing metrics
+    between them.
+    1. (Optional) **Skip TLS validation for RLP**: Whether to skip TLS verification for the RLP gateway endpoint.
+    1. **UAA username**: Name of the User Account and Authentication (UAA) user.
+    1. **UAA password**: Password of the UAA user.
+    1. (Optional) **Skip TLS validation for UAA**: Whether to skip TLS verification for the UAA endpoint.
+    1. (Optional) **HTTP proxy URL**: URL used as the proxy URL for HTTP requests unless overridden
+    by **Proxy exclusions**.
+    1. (Optional) **HTTPS proxy URL**: URL used as the proxy for HTTPS requests unless overridden
+    by **Proxy exclusions**.
+    1. (Optional) **Proxy exclusions**: Comma-separated hosts that should be excluded from proxying. Hosts should be
+    in the form of an IP address prefix (regular or CIDR notation), a domain name, or a special DNS label (*).
+
+    1. Click **Save**.
+
+1. **Splunk Observability Cloud**
+
+    ![Splunk OpenTelemetry Collector observability cloud configuration](tanzu_splunk_observability_cloud_config.png)
+
+    1. **Access token**: Access token for Splunk Observability Cloud. More information can be found
+    [here](https://docs.splunk.com/Observability/admin/authentication-tokens/tokens.html).
+    1. (Optional) **Realm**: Realm (e.g. `us0`, `ap0`). This option will implicitly set the **Ingest base URL** and
+    **API server base URL** configuration options. If **Ingest base URL** and **API server base URL** are
+    explicitly set, this option is ignored.
+    1. (Optional) **API server base URL**: The API server's base URL for Splunk Observability Cloud. This option
+    takes precedence over **Realm**.
+    1. (Optional) **Ingest base URL**: The base URL for ingest to Splunk Observability Cloud. This option takes
+    precedence over the **Realm**.
+    1. Note: Either **Realm** needs to be set, or both **API server base URL** and **Ingest base URL** need to
+    be set.
+    1. Click **Save**.
+
+1. **Resource Config**
+
+    1. Choose resources to allocate.
+    1. **Save**
+
+1. Return to the Ops Manager Installation Dashboard and click **Apply changes** to install Splunk
+OpenTelemetry Collector for VMware Tanzu tile.
