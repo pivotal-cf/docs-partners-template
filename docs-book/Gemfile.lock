@@ -146,6 +146,7 @@ GEM
     minitest (5.11.3)
     multi_json (1.13.1)
     multipart-post (2.0.0)
+    nio4r (2.5.9)
     nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
     padrino-helpers (0.12.9)
@@ -155,7 +156,8 @@ GEM
     padrino-support (0.12.9)
       activesupport (>= 3.1)
     public_suffix (3.0.3)
-    puma (3.12.0)
+    puma (6.3.1)
+      nio4r (~> 2.0)
     rack (1.6.11)
     rack-livereload (0.3.17)
       rack
